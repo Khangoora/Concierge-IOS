@@ -1,0 +1,14 @@
+{
+  "global": {
+    "parseVersion": "1.4.2"
+  },
+  "applications": {
+    "_default": {
+      "link": "piedpiper"
+    },
+    "piedpiper": {
+      "applicationId": "wS9b0MnBZTPwPxdWaACBafwfYJcRW0FYPgVseIVE",
+      "masterKey": "12IpyCxzg9Yww1U8Hx11OOkENNnEK5GNkwftpE3w"
+    }
+  }
+}

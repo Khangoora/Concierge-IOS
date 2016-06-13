@@ -1,0 +1,78 @@
+PODS:
+  - AFNetworking (2.2.4):
+    - AFNetworking/NSURLConnection (= 2.2.4)
+    - AFNetworking/NSURLSession (= 2.2.4)
+    - AFNetworking/Reachability (= 2.2.4)
+    - AFNetworking/Security (= 2.2.4)
+    - AFNetworking/Serialization (= 2.2.4)
+    - AFNetworking/UIKit (= 2.2.4)
+  - AFNetworking/NSURLConnection (2.2.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.2.4):
+    - AFNetworking/NSURLConnection
+  - AFNetworking/Reachability (2.2.4)
+  - AFNetworking/Security (2.2.4)
+  - AFNetworking/Serialization (2.2.4)
+  - AFNetworking/UIKit (2.2.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Bolts (1.1.5):
+    - Bolts/AppLinks (= 1.1.5)
+    - Bolts/Tasks (= 1.1.5)
+  - Bolts/AppLinks (1.1.5):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.1.5)
+  - FBSDKCoreKit (4.2.0):
+    - Bolts (~> 1.1)
+    - FBSDKCoreKit/arc (= 4.2.0)
+    - FBSDKCoreKit/no-arc (= 4.2.0)
+  - FBSDKCoreKit/arc (4.2.0):
+    - Bolts (~> 1.1)
+  - FBSDKCoreKit/no-arc (4.2.0):
+    - Bolts (~> 1.1)
+    - FBSDKCoreKit/arc
+  - FBSDKLoginKit (4.2.0):
+    - FBSDKCoreKit
+  - Firebase (2.3.1)
+  - FlatUIKit (1.6.2)
+  - FTGooglePlacesAPI (1.1):
+    - AFNetworking (~> 2.2.0)
+  - JSQMessagesViewController (5.3.2):
+    - JSQSystemSoundPlayer
+  - JSQSystemSoundPlayer (4.0.0)
+  - MBProgressHUD (0.9.1)
+  - Parse (1.7.4):
+    - Bolts/Tasks (>= 1.1.5)
+  - ParseFacebookUtilsV4 (1.7.4):
+    - Bolts/Tasks (>= 1.1.5)
+    - FBSDKCoreKit (~> 4.0)
+    - FBSDKLoginKit (~> 4.0)
+    - Parse (~> 1.7.4)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.0)
+  - Firebase (>= 2.3.1)
+  - FlatUIKit
+  - FTGooglePlacesAPI
+  - JSQMessagesViewController (~> 5.3.2)
+  - MBProgressHUD
+  - Parse
+  - ParseFacebookUtilsV4 (~> 1.7)
+
+SPEC CHECKSUMS:
+  AFNetworking: caca0799b310f0c3bf1fc1af45145fc96972bcab
+  Bolts: aac24961496d504aa56fc267cde95162a71bac39
+  FBSDKCoreKit: 84b3616a361801f190e43a9909caead7bb6087c7
+  FBSDKLoginKit: 57e37106af12c9e264e473dcb75d7decdbb07fe4
+  Firebase: 462795adf92029ddb97777660627f5dd4fd59876
+  FlatUIKit: 1b41f0d4952ce8d970d8479ce79df54a960242c4
+  FTGooglePlacesAPI: 72eaa924ed03039b0323d617305103b504c5cd4f
+  JSQMessagesViewController: dc7194ed0ff8f32a7c972504ee3839e95505d91e
+  JSQSystemSoundPlayer: a367c3eba71068e304ef37e5fd6355fb4cd2a258
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  Parse: 6ca512c6e860b66739c95151b2f76ac4712b7842
+  ParseFacebookUtilsV4: 481ea7b00f8f62440c314ac7f80eada228bf7488
+
+COCOAPODS: 0.37.2
